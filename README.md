@@ -13,7 +13,7 @@ public class myClass {
   @Event(eventname)
   //Method here
 
-  Eventide.register();
+  Eventide.register(new myClass());
 }
 ```
 
