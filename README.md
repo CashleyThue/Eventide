@@ -2,6 +2,12 @@
 
 Eventide does events
 
+## Build
+
+```bash
+./gradlew build
+```
+
 ## Usage
 
 add the annotation and register
