@@ -21,3 +21,7 @@ emit the event
 ```java
 Eventide.emit(eventname);
 ```
+after you're finished you can shut it down
+```java
+Eventide.shutdown();
+```
