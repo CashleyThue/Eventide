@@ -39,7 +39,7 @@ public class Eventide {
     }
 
     public static void emit(String event) {
-        if (executor.isTerminated()) {
+        if (executor.isShutdown()) {
             System.out.println("Executor was terminated");
             return;
         }
